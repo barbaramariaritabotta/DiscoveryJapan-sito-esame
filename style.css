@@ -434,13 +434,16 @@ nav a {
 .cards {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+   flex-direction: column;
   gap: 20px;
   padding: 40px;
 }
 
 .card {
-  width: 240px;
+  width: 100%;
+  max-width: 300px;
   background-color: #f8dfe7;
   border-radius: 12px;
   overflow: hidden;
