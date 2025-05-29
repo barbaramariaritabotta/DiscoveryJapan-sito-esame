@@ -1,0 +1,560 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fff;
+  }
+  
+
+  header {
+    position: fixed;
+  top: 0;
+  left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f4dbe0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+
+  .logo:hover {
+  text-decoration: underline;
+ 
+}
+
+  
+  nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a.active {
+  color: rgb(97, 0, 150);
+  text-decoration: underline;
+  font-weight: bold; /* facoltativo per far risaltare meglio */
+}
+
+  
+  .hero {
+    background-image: url('img/generale_tn1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 80px;
+  }
+  
+  .hero-text p {
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  
+  .container {
+    max-width: 900px;  
+    width: 90%; 
+    margin: 40px auto;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .intro p {
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+     text-align: left;
+
+ }
+
+ .intro-strong {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+ }
+
+ .intro-strong p {
+    font-size: 20px;
+    text-align: center;
+ }
+  
+  
+
+  .cards {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    background-color: #f7f7f7;
+    margin-bottom: 100px;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #f4dbe0;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #000;  
+    padding-bottom: 40px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  text-decoration: none;
+  }
+
+  .card:hover p {
+  text-decoration: underline;
+}
+  
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #A9698E;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    color: #333;
+  }
+
+
+.city-title {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 0; 
+
+}
+
+.city-title h1 {
+  font-size: 60px;
+  line-height: 1;
+  margin: 0;
+  margin-top: 50px;
+  padding-top: 150px; 
+  position: relative; 
+  line-height: 1.6;
+  z-index: 1;
+}
+
+.sakura-icon {
+  position: absolute;
+  left: -50px;     
+  top: 180px;      
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  z-index: 0;     
+}
+
+  
+  .introcity .container {
+   max-width: 900px;  
+    width: 90%; 
+    margin: 40px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+  
+ 
+  
+.introcity p {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 30px;
+   line-height: 1.6;
+}
+
+.introcity img {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  
+}
+
+.citygeneral {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.citygeneral p {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.citygeneral img {
+display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+ 
+  
+}
+
+
+.indice {
+  background-color: #fafafa;
+  border-left: 4px solid #aaa;
+  padding: 40px;
+  margin: 100px 0;
+}
+
+.indice h2 {
+  margin-bottom: 10px;
+}
+
+.indice ol {
+  padding-left: 20px;
+}
+
+.indice li {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+section[id] {
+  scroll-margin-top: 80px; 
+}
+
+
+.spiegazioni section {
+  margin-bottom: 50px;
+}
+
+.spiegazioni h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-top: 50px;
+  color: #2e2e2e;
+}
+
+.spiegazioni p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+   line-height: 1.6;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.img-center img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
+
+#mappa {
+  padding: 30px; 
+}
+
+
+#quando {
+  padding-bottom: 60px; 
+}
+  
+ 
+
+
+ 
+
+
+@media screen and (max-width: 600px) {
+
+  
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7d6df;
+  padding: 10px 40px;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 5px;
+  padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 10px;
+  }
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 5px;
+}
+
+
+ .hero {
+    background-image: url('img/generale_tn1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 30px;
+  }
+  
+  .hero-text p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  
+
+  .intro p {
+    font-size: 12px;
+ }
+
+ .intro-strong p {
+    font-size: 20px; 
+    font-weight: bold; 
+    
+ }
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 240px;
+  background-color: #f8dfe7;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card p {
+  padding: 10px 14px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+   background-color: #A9698E;
+  
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.footer-section p {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+
+.introcity .container {
+     width: 90%;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 0 10px;
+  }
+
+  .sakura-icon {
+    width: 20px;
+    height: 20px;
+     margin-left: 25px;     
+    margin-top: 2px; 
+    position: absolute;
+  left: -50px;     
+  top: 160px;      
+  object-fit: contain;
+  z-index: 0;    
+  }
+
+  .city-title h1 {
+  font-size: 30px;
+  line-height: 1;
+  margin: 0;
+  line-height: 1.6;
+  padding-top: 150px; 
+  position: relative; 
+  z-index: 1;
+}
+  .introcity p {
+    font-size: 14px;
+  }
+
+  .citygeneral p {
+    font-size: 12px;
+  }
+
+  .spiegazioni h3 {
+    font-size: 20px;
+  }
+
+  .spiegazioni p {
+    font-size: 12px;
+  }
+
+  .indice {
+    padding: 20px;
+    margin: 60px 0;
+  }
+
+  .indice li {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .indice h2 {
+    font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.img-center img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
+#quando {
+  padding-bottom: 60px; 
+}
+
+}
+
+
+
+
+
+    
