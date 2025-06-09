@@ -273,12 +273,24 @@ display: block;
 }
 
 .indice ol {
+  padding-top: 10px;
   padding-left: 20px;
 }
 
 .indice li {
   margin: 10px 0;
   padding: 10px;
+}
+
+.indice a {
+  text-decoration: none;
+  color: #333;
+  
+}
+
+.indice a:hover {
+  text-decoration: underline; 
+  color: rgb(97, 0, 150); 
 }
 
 section[id] {
@@ -369,7 +381,7 @@ header {
 }
 
 .logo {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   color: #000;
   
@@ -379,21 +391,23 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 30px;
-  font-size: 5px;
-  padding: 10px;
+  font-size: 10px;
+ padding: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 10px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
 nav a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 5px;
+  font-size: 10px;
 }
 
 
@@ -421,7 +435,7 @@ nav a {
   
 
   .intro p {
-    font-size: 12px;
+    font-size: 14px;
  }
 
  .intro-strong p {
@@ -460,7 +474,7 @@ nav a {
 .card p {
   padding: 10px 14px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
@@ -474,11 +488,11 @@ footer {
 
 .footer-section h4 {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .footer-section p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
@@ -517,7 +531,7 @@ footer {
   }
 
   .citygeneral p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .spiegazioni h3 {
@@ -525,7 +539,7 @@ footer {
   }
 
   .spiegazioni p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .indice {
@@ -535,8 +549,13 @@ footer {
 
   .indice li {
     padding: 6px;
-    font-size: 12px;
+    font-size: 14px;
   }
+
+  .indice ol {
+  padding-top: 10px;
+  padding-left: 20px;
+}
 
   .indice h2 {
     font-size: 20px;
@@ -544,7 +563,7 @@ footer {
 }
 
 .img-center img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   display: block;
   padding-bottom: 50px;
